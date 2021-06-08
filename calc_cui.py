@@ -1,5 +1,5 @@
 a = int(input("a >>"))
-b = int(input("b >>"))
+b =  int(input("b >>"))
 print("select mode 1...+(Addition) 2...-(Subtraction) 3...*(Multiply) 4.../(division)")
 mode = int(input("mode:")) # 1,+ 2,- 3,* 4,/
 # modeに沿って計算する
