@@ -10,12 +10,13 @@ division = 0 # 師団
 
 json_file = open('team1.json','r',encoding="utf-8")
 json_load = json.load(json_file)
-print(json_load)
+print("{}".format(json.dumps(json_load,indent=4,ensure_ascii=False))) # json風の出力
+print(json_load['division1']['司令部']) # 要素を絞る方法
+#print(json_load)
 # jsonにデータを追加
 
 # jsonに追加する関数
 def insert():
-    
     return null
 
 # jsonから削除する関数
